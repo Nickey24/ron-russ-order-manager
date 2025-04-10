@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ron-russ-order-manager
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
